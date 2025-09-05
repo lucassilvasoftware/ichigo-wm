@@ -1,11 +1,25 @@
 <p align="center">
-  <img src="https://github.com/user-attachments/assets/576d4636-0d84-4372-a9f4-e6f4ab247a67" alt="IchigoWM Logo" width="330"/>
+  <img src="https://github.com/user-attachments/assets/576d4636-0d84-4372-a9f4-e6f4ab247a67" alt="IchigoWM Logo" width="280"/>
 </p>
 
-# IchigoWM
+<h1 align="center">IchigoWM</h1>
 
-A **minimal tiling window manager** inspired by the Japanese philosophy **ichigo ichie** — "one opportunity, a unique moment."  
-IchigoWM helps you organize your windows efficiently, making every workspace a unique and productive moment.
+<p align="center">
+  <strong>Minimal tiling window manager inspired by the Japanese philosophy <em>ichigo ichie</em></strong><br/>
+  "One opportunity, a unique moment."
+</p>
+
+<p align="center">
+  <a href="https://github.com/yourusername/IchigoWM/stargazers">
+    <img src="https://img.shields.io/github/stars/lucassilvahub/IchigoWM?style=for-the-badge" alt="Stars"/>
+  </a>
+  <a href="https://github.com/yourusername/IchigoWM/issues">
+    <img src="https://img.shields.io/github/issues/lucassilvahub/IchigoWM?style=for-the-badge" alt="Issues"/>
+  </a>
+  <a href="https://github.com/yourusername/IchigoWM/license">
+    <img src="https://img.shields.io/github/license/lucassilvahub/IchigoWM?style=for-the-badge" alt="License"/>
+  </a>
+</p>
 
 ---
 
@@ -15,46 +29,3 @@ IchigoWM helps you organize your windows efficiently, making every workspace a u
 - **Tiling Window Management**: Automatically organize your windows in a grid layout.  
 - **Japanese-inspired Philosophy**: Every window, every moment is unique (*ichigo ichie*).  
 - **Customizable**: Adapt layouts, keybindings, and colors to your workflow.  
-
----
-
-## Installation
-
-```bash
-# Clone the repository
-git clone https://github.com/yourusername/IchigoWM.git
-cd IchigoWM
-
-# Build and install (example)
-make
-sudo make install
-Usage
-bash
-Copiar código
-# Launch IchigoWM
-ichigowm
-Use Mod + Enter to open a terminal.
-
-Use Mod + [Arrow Keys] to switch between windows.
-
-Use Mod + Shift + [Arrow Keys] to move windows.
-
-(Replace Mod with your chosen modifier key.)
-
-Philosophy
-IchigoWM is more than a tiling window manager; it’s about being present in your workspace. Inspired by the Japanese saying ichigo ichie, it encourages mindfulness in every task, every window, every moment.
-
-Contributing
-Contributions are welcome! Please open issues or submit pull requests to help make IchigoWM better.
-
-License
-This project is licensed under the MIT License.
-
-“Make every window a unique opportunity.” — IchigoWM
-
-markdown
-Copiar código
-
-Se você quiser, posso fazer **uma versão ainda mais visual e moderna**, com **badges, cores e links diretos para instalação**, perfeita para deixar o GitHub com cara de projeto profissional.  
-
-Quer que eu faça isso?
