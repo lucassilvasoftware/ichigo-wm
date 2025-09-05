@@ -1,7 +1,7 @@
+<p align="center">
+  <img src="https://github.com/user-attachments/assets/576d4636-0d84-4372-a9f4-e6f4ab247a67" alt="IchigoWM Logo" width="330"/>
+</p>
 
-<img width="1024" height="520" alt="IchigoWM" src="https://github.com/user-attachments/assets/f6b2890d-53db-4d83-ae1d-b410e5915c34" />
-
- ![IchigoWM Logo](./logo.png)  
 # IchigoWM
 
 A **minimal tiling window manager** inspired by the Japanese philosophy **ichigo ichie** — "one opportunity, a unique moment."  
