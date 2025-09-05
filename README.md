@@ -1,5 +1,5 @@
 <p align="center">
-  <img alt="IchigoWM Logo" src="https://github.com/user-attachments/assets/5da8150d-e96c-42ea-a797-76daa4be1875" width="320" />
+  <img alt="IchigoWM Logo" src="https://github.com/user-attachments/assets/5ec2f388-a4c0-423e-bae7-59daa4422cad" width="920" />
 </p>
 
 # Ichigo Window Manager
