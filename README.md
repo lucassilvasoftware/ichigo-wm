@@ -1,6 +1,6 @@
 # Ichigo Window Manager
 
-Gerenciador de janelas em **tiling** para **Windows**, em linguagem **C**, usando a API Win32: o executável carrega `wm.dll` (`wm_dll`), instala um hook `WH_SHELL` e delega o tratamento de eventos de janela à biblioteca. Objetivo: organizar janelas em layouts (por exemplo BSP, mestre-pilha, grade ou flutuante) e atalhos no estilo de gerenciadores como i3 ou dwm.
+Experimento em **C** com a API Win32: o executável carrega `wm.dll`, instala um hook `WH_SHELL` e, quando uma janela é criada ou destruída, chama `TileWindows` em layout vertical. Não é um gerenciador i3/dwm completo — é um protótipo de hook + tiling nativo do Windows.
 
 ## Tecnologias
 
@@ -8,22 +8,18 @@ Gerenciador de janelas em **tiling** para **Windows**, em linguagem **C**, usand
 
 ## Build
 
-Requer toolchain para Windows (**MinGW-w64** ou **MSVC**). Exemplo genérico com `gcc` (ajuste nomes de saída e flags conforme seu ambiente):
+Requer toolchain para Windows (**MinGW-w64** ou **MSVC**):
 
 ```bash
 gcc -shared -o wm_dll.dll wm_dll.c -luser32
 gcc -o ichigo.exe main.c
 ```
 
-Coloque `wm_dll.dll` no mesmo diretório que `ichigo.exe` (o `main.c` usa `LoadLibraryW(L"wm_dll")` — o nome efetivo do arquivo deve corresponder à convenção de carregamento do Windows, por exemplo `wm_dll.dll`).
+Coloque `wm_dll.dll` no mesmo diretório que `ichigo.exe` (`main.c` usa `LoadLibraryW(L"wm_dll")`).
 
 ## Execução
 
-Execute `ichigo.exe` com permissões adequadas ao hook global. Encerre com Ctrl+C no terminal ou pelo gerenciador de tarefas se o processo estiver associado ao console.
-
-## Configuração
-
-Se o projeto evoluir para arquivo `ichigo.conf` ou exclusão de classes de janela, consulte o código em `wm_dll.c` e comentários no repositório.
+Execute `ichigo.exe`. Encerre com Ctrl+C no terminal.
 
 ## Acompanhe o projeto
 
