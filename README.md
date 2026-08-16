@@ -27,4 +27,4 @@ Se o projeto evoluir para arquivo `ichigo.conf` ou exclusão de classes de janel
 
 ## Acompanhe o projeto
 
-Relate problemas ou sugestões em [Issues no GitHub](https://github.com/lucassilvasoftware/ichigo/issues) (ajuste a URL se o fork oficial for outro).
+Relate problemas ou sugestões em [Issues no GitHub](https://github.com/lucassilvasoftware/ichigo-wm/issues).
